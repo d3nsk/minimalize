@@ -74,11 +74,11 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
             <Title>{title}</Title>
             <Date>{publishDate}</Date>
             <ReadingTime>
-              {body.childMarkdownRemark.timeToRead} min read
+              {body?.childMarkdownRemark.timeToRead} min read
             </ReadingTime>
             <Excerpt
               dangerouslySetInnerHTML={{
-                __html: body.childMarkdownRemark.excerpt,
+                __html: body?.childMarkdownRemark?.excerpt,
               }}
             />
           </Link>

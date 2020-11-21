@@ -15,7 +15,7 @@ const PageTemplate = ({ data }) => {
         description={
           metaDescription
             ? metaDescription.internal.content
-            : body.childMarkdownRemark.excerpt
+            : body?.childMarkdownRemark?.excerpt
         }
       />
       <Container>

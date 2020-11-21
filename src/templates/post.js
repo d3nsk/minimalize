@@ -37,7 +37,7 @@ const PostTemplate = ({ data, pageContext }) => {
         description={
           metaDescription
             ? metaDescription.internal.content
-            : body.childMarkdownRemark.excerpt
+            : body?.childMarkdownRemark?.excerpt
         }
         image={ogImage}
       />
@@ -46,7 +46,7 @@ const PostTemplate = ({ data, pageContext }) => {
         {tags && <TagList tags={tags} basePath={basePath} />}
         <PostDetails
           date={publishDate}
-          timeToRead={body.childMarkdownRemark.timeToRead}
+          timeToRead={body?.childMarkdownRemark.timeToRead}
         />
         <PageBody body={body} />
       </Container>
