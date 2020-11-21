@@ -26,6 +26,8 @@ const Posts = ({ data, pageContext }) => {
     ogImage = null
   }
 
+  console.log('ha', posts)
+
   return (
     <Layout>
       <SEO title={startCase(basePath)} image={ogImage} />

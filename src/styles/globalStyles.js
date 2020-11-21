@@ -176,7 +176,8 @@ export const globalStyles = css`
 
   img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    max-height: 500px;
     height: auto;
   }
 

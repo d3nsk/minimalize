@@ -24,16 +24,12 @@ module.exports = {
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Atomin',
         slug: '/',
       },
       {
         name: 'About',
         slug: '/about/',
-      },
-      {
-        name: 'Contact',
-        slug: '/contact/',
       },
     ],
     postsPerFirstPage: 7,

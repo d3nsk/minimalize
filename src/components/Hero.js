@@ -16,7 +16,7 @@ const BgImg = styled(Img)`
   height: 100%;
   &::before {
     content: '';
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -42,6 +42,7 @@ const Title = styled.h1`
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  line-height: 1.7;
 `
 
 const Hero = props => (

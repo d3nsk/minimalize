@@ -10,7 +10,7 @@ const Body = styled.div`
   h3 {
     font-weight: 600;
     line-height: 1.25;
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
     text-transform: capitalize;
   }
 
@@ -18,14 +18,14 @@ const Body = styled.div`
     font-size: 1.5em;
   }
   h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   h3 {
     font-size: 1em;
   }
 
   p {
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0 0 2em 0;
   }
 
@@ -50,13 +50,16 @@ const Body = styled.div`
   ul,
   ol {
     margin: 0 0 2em 0;
+    padding: 20px 20px 20px 30px;
+    background: #efefef;
+    border-radius: 10px;
   }
 
   ul {
     li {
       list-style: disc;
       list-style-position: inside;
-      line-height: 1.25;
+      line-height: 1.7;
       &:last-child {
         margin: 0;
       }
