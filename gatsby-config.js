@@ -96,5 +96,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://cdn.embedly.com/widgets/platform.js',
+        crossorigin: 'anonymous',
+      },
+    },
   ],
 }

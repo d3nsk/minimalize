@@ -10,7 +10,7 @@ const Body = styled.div`
   h3 {
     font-weight: 600;
     line-height: 1.25;
-    margin: 0 0 2rem 0;
+    margin: 3em 0 2rem 0;
     text-transform: capitalize;
   }
 
@@ -18,10 +18,15 @@ const Body = styled.div`
     font-size: 1.5em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin: 3em 0 1.5em;
+    padding-left: 1em;
+    border-left: 4px solid; 
   }
   h3 {
-    font-size: 1em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
   }
 
   p {
