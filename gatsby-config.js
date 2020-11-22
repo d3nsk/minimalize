@@ -20,11 +20,11 @@ module.exports = {
     title: 'Minimalo',
     description:
       'ミニマリストになりたい人のライフスタイルブログ。シンプル・ミニマルデザインのブランド紹介、商品レビューなどを行っています。',
-    siteUrl: 'https://atomin.white-space.work',
+    siteUrl: 'https://minimalo.white-space.work',
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Atomin',
+        name: 'Minimalo',
         slug: '/',
       },
       {
@@ -78,8 +78,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'Minimalo',
+        short_name: 'MNMLO',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
