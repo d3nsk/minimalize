@@ -43,6 +43,11 @@ const Title = styled.h1`
   text-align: center;
   color: white;
   line-height: 1.7;
+
+  @media (max-width: ${props => props.theme.responsive.small}) {
+    font-size: 1.5em;
+    top: 40%;
+  }
 `
 
 const Hero = props => (
