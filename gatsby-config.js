@@ -17,9 +17,9 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'Atomin',
+    title: 'Minimalo',
     description:
-      'ミニマリストになりたい人のブログ',
+      'ミニマリストになりたい人のライフスタイルブログ。シンプル・ミニマルデザインのブランド紹介、商品レビューなどを行っています。',
     siteUrl: 'https://atomin.white-space.work',
     image: '/images/share.jpg',
     menuLinks: [
@@ -101,6 +101,20 @@ module.exports = {
       options: {
         src: 'https://cdn.embedly.com/widgets/platform.js',
         crossorigin: 'anonymous',
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-KF9H7PQ",
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
       },
     },
   ],
